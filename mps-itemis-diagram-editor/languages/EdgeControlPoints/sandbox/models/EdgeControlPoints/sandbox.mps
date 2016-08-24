@@ -4,14 +4,20 @@
   <languages>
     <use id="047027c3-d122-4871-a3c3-fbd8f5408ea4" name="EdgeControlPoints" version="-1" />
     <use id="ceab5195-25ea-4f22-9b92-103b95ca8c0c" name="jetbrains.mps.lang.core" version="1" />
+    <use id="8ca79d43-eb45-4791-bdd4-0d6130ff895b" name="de.itemis.mps.editor.diagram.layout" version="0" />
   </languages>
   <imports />
   <registry>
     <language id="047027c3-d122-4871-a3c3-fbd8f5408ea4" name="EdgeControlPoints">
+      <concept id="403404044199930236" name="EdgeControlPoints.structure.ControlPoint" flags="ng" index="16TKiF">
+        <property id="403404044199930251" name="y" index="16TKhs" />
+        <property id="403404044199930237" name="x" index="16TKiE" />
+      </concept>
       <concept id="403404044199930219" name="EdgeControlPoints.structure.Vertex" flags="ng" index="16TKiW" />
       <concept id="403404044199930218" name="EdgeControlPoints.structure.Edge" flags="ng" index="16TKiX">
         <reference id="403404044199930231" name="from" index="16TKiw" />
         <reference id="403404044199930233" name="to" index="16TKiI" />
+        <child id="403404044199930260" name="controlPoints" index="16TKh3" />
       </concept>
       <concept id="403404044199930217" name="EdgeControlPoints.structure.Graph" flags="ng" index="16TKiY">
         <child id="403404044199930228" name="vertices" index="16TKiz" />
@@ -137,6 +143,68 @@
           </node>
         </node>
       </node>
+      <node concept="37mRIm" id="mpbtt3vTNE" role="37mRID">
+        <property role="37mO49" value="403404044200025317" />
+        <node concept="gqqVs" id="mpbtt3vTND" role="37mO4d">
+          <property role="gqqTZ" value="133.0" />
+          <property role="gqqTW" value="688.0" />
+          <property role="gqqTX" value="105.0" />
+          <property role="gqqTy" value="31.0" />
+          <property role="TgtnS" value="1.0;0.0;0.0;1.0;0.0;0.0" />
+        </node>
+      </node>
+      <node concept="37mRIm" id="mpbtt3vTO9" role="37mRID">
+        <property role="37mO49" value="403404044200025346" />
+        <node concept="2VclpC" id="mpbtt3vTO8" role="37mO4d">
+          <node concept="2VclrF" id="mpbtt3vTOa" role="2Vcluh">
+            <property role="2Vclpx" value="302.0" />
+            <property role="2Vclpz" value="703.5000610351562" />
+          </node>
+          <node concept="2VclrF" id="mpbtt3vTOb" role="2Vcluh">
+            <property role="2Vclpx" value="302.0" />
+            <property role="2Vclpz" value="330.50006103515625" />
+          </node>
+          <node concept="3ul5H1" id="mpbtt3vTOc" role="3ul5Gx">
+            <property role="3ul5GH" value="label" />
+            <node concept="3wpmZ1" id="mpbtt3vTOd" role="3ul5Gz">
+              <node concept="2VclrF" id="mpbtt3vTOe" role="3wpmZR">
+                <property role="2Vclpx" value="0.0" />
+                <property role="2Vclpz" value="0.0" />
+              </node>
+              <node concept="2VclrF" id="mpbtt3vTOf" role="3wpmZP">
+                <property role="2Vclpx" value="302.0" />
+                <property role="2Vclpz" value="517.0000610351562" />
+              </node>
+            </node>
+          </node>
+          <node concept="3ul5H1" id="mpbtt3vTOg" role="3ul5Gx">
+            <property role="3ul5GH" value="startRole" />
+            <node concept="3wpmZ1" id="mpbtt3vTOh" role="3ul5Gz">
+              <node concept="2VclrF" id="mpbtt3vTOi" role="3wpmZR">
+                <property role="2Vclpx" value="0.0" />
+                <property role="2Vclpz" value="0.0" />
+              </node>
+              <node concept="2VclrF" id="mpbtt3vTOj" role="3wpmZP">
+                <property role="2Vclpx" value="251.42012905344436" />
+                <property role="2Vclpz" value="724.0481336071945" />
+              </node>
+            </node>
+          </node>
+          <node concept="3ul5H1" id="mpbtt3vTOk" role="3ul5Gx">
+            <property role="3ul5GH" value="endRole" />
+            <node concept="3wpmZ1" id="mpbtt3vTOl" role="3ul5Gz">
+              <node concept="2VclrF" id="mpbtt3vTOm" role="3wpmZR">
+                <property role="2Vclpx" value="0.0" />
+                <property role="2Vclpz" value="0.0" />
+              </node>
+              <node concept="2VclrF" id="mpbtt3vTOn" role="3wpmZP">
+                <property role="2Vclpx" value="352.5798709465557" />
+                <property role="2Vclpz" value="351.0481336071945" />
+              </node>
+            </node>
+          </node>
+        </node>
+      </node>
     </node>
     <node concept="16TKiW" id="mpbtt3vHJx" role="16TKiz">
       <property role="TrG5h" value="B" />
@@ -145,6 +213,38 @@
       <property role="TrG5h" value="ab" />
       <ref role="16TKiw" node="mpbtt3vHJs" resolve="A" />
       <ref role="16TKiI" node="mpbtt3vHJx" resolve="B" />
+      <node concept="16TKiF" id="mpbtt3vHU7" role="16TKh3">
+        <property role="16TKiE" value="100.0f" />
+        <property role="16TKhs" value="100.0f" />
+      </node>
+      <node concept="16TKiF" id="mpbtt3vHU9" role="16TKh3">
+        <property role="16TKiE" value="200.0f" />
+        <property role="16TKhs" value="100.0f" />
+      </node>
+      <node concept="16TKiF" id="mpbtt3vHUc" role="16TKh3">
+        <property role="16TKiE" value="100.0f" />
+        <property role="16TKhs" value="500.0f" />
+      </node>
+    </node>
+    <node concept="16TKiW" id="mpbtt3vTN_" role="16TKiz">
+      <property role="TrG5h" value="C" />
+    </node>
+    <node concept="16TKiX" id="mpbtt3vTO2" role="16TKi_">
+      <property role="TrG5h" value="cb" />
+      <ref role="16TKiw" node="mpbtt3vTN_" resolve="C" />
+      <ref role="16TKiI" node="mpbtt3vHJx" resolve="B" />
+      <node concept="16TKiF" id="mpbtt3vTVS" role="16TKh3">
+        <property role="16TKiE" value="100.0f" />
+        <property role="16TKhs" value="100.0f" />
+      </node>
+      <node concept="16TKiF" id="mpbtt3vTVT" role="16TKh3">
+        <property role="16TKiE" value="200.0f" />
+        <property role="16TKhs" value="100.0f" />
+      </node>
+      <node concept="16TKiF" id="mpbtt3vTVU" role="16TKh3">
+        <property role="16TKiE" value="100.0f" />
+        <property role="16TKhs" value="500.0f" />
+      </node>
     </node>
   </node>
 </model>

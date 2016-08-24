@@ -8,6 +8,7 @@
   <sourcePath />
   <languageVersions>
     <language id="047027c3-d122-4871-a3c3-fbd8f5408ea4" fqName="EdgeControlPoints" version="-1" />
+    <language id="8ca79d43-eb45-4791-bdd4-0d6130ff895b" fqName="de.itemis.mps.editor.diagram.layout" version="0" />
     <language id="ceab5195-25ea-4f22-9b92-103b95ca8c0c" fqName="jetbrains.mps.lang.core" version="1" />
   </languageVersions>
   <dependencyVersions>
