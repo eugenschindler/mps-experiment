@@ -91,6 +91,12 @@
     <property role="1pbfSe" value="1226266434" />
     <property role="TrG5h" value="Vertex" />
     <ref role="1TJDcQ" to="tpck:gw2VY9q" resolve="BaseConcept" />
+    <node concept="1TJgyj" id="HZh_Qf$FkE" role="1TKVEi">
+      <property role="20lmBu" value="aggregation" />
+      <property role="20kJfa" value="position" />
+      <property role="20lbJX" value="1" />
+      <ref role="20lvS9" node="mpbtt3vy_W" resolve="ControlPoint" />
+    </node>
     <node concept="PrWs8" id="mpbtt3vyAi" role="PzmwI">
       <ref role="PrY4T" to="tpck:h0TrEE$" resolve="INamedConcept" />
     </node>
