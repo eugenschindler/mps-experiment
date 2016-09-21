@@ -11,12 +11,10 @@
     <import index="r3rm" ref="r:7fc96130-6279-4a55-aeeb-422a6879539d(de.itemis.mps.editor.diagram.runtime.jgraph)" />
     <import index="lwvz" ref="1ed103c3-3aa6-49b7-9c21-6765ee11f224/java:jetbrains.mps.openapi.editor.selection(MPS.Editor/)" />
     <import index="1njx" ref="1144260c-e9a5-49a2-9add-39a1a1a7077e/java:com.mxgraph.view(de.itemis.mps.editor.diagram.runtime/)" />
-    <import index="wgu2" ref="r:dd636d96-de5b-4492-aac8-bba29f7daf9c(com.oce.layout.intentions)" />
     <import index="99ht" ref="1144260c-e9a5-49a2-9add-39a1a1a7077e/java:com.mxgraph.model(de.itemis.mps.editor.diagram.runtime/)" />
     <import index="18t6" ref="1144260c-e9a5-49a2-9add-39a1a1a7077e/java:com.mxgraph.util(de.itemis.mps.editor.diagram.runtime/)" />
     <import index="gc3l" ref="r:3dad15d8-6438-4d75-9073-1fa2d1a3944e(EdgeControlPoints.structure)" implicit="true" />
     <import index="hm4n" ref="r:5be6e59a-eb45-4af1-8af9-d89b21ce0ab7(EdgeControlPoints.behavior)" implicit="true" />
-    <import index="gl2w" ref="r:1337ce90-6bac-4ba9-b53d-862619d938a7(com.oce.layout.structure)" implicit="true" />
     <import index="wyt6" ref="6354ebe7-c22a-4a0f-ac54-50b52ab9b065/java:java.lang(JDK/)" implicit="true" />
   </imports>
   <registry>
@@ -306,41 +304,6 @@
                 <node concept="TSZUe" id="mpbtt3ugeY" role="2OqNvi">
                   <node concept="37vLTw" id="mpbtt3ukWX" role="25WWJ7">
                     <ref role="3cqZAo" node="mpbtt3uggY" resolve="point" />
-                  </node>
-                </node>
-              </node>
-            </node>
-            <node concept="1X3_iC" id="mpbtt3uCi5" role="lGtFl">
-              <property role="3V$3am" value="statement" />
-              <property role="3V$3ak" value="f3061a53-9226-4cc5-a443-f952ceaf5816/1068580123136/1068581517665" />
-              <node concept="34ab3g" id="mpbtt3urjW" role="8Wnug">
-                <property role="35gtTG" value="info" />
-                <node concept="3cpWs3" id="mpbtt3urGo" role="34bqiv">
-                  <node concept="2OqwBi" id="mpbtt3urKA" role="3uHU7w">
-                    <node concept="37vLTw" id="mpbtt3urIg" role="2Oq$k0">
-                      <ref role="3cqZAo" node="mpbtt3ubHq" resolve="coord" />
-                    </node>
-                    <node concept="3TrcHB" id="mpbtt3urOj" role="2OqNvi">
-                      <ref role="3TsBF5" to="gl2w:2PuomAm5PaI" resolve="y" />
-                    </node>
-                  </node>
-                  <node concept="3cpWs3" id="mpbtt3urzs" role="3uHU7B">
-                    <node concept="3cpWs3" id="mpbtt3urom" role="3uHU7B">
-                      <node concept="Xl_RD" id="mpbtt3urjY" role="3uHU7B">
-                        <property role="Xl_RC" value="added controlpoint: " />
-                      </node>
-                      <node concept="2OqwBi" id="mpbtt3urqR" role="3uHU7w">
-                        <node concept="37vLTw" id="mpbtt3uroN" role="2Oq$k0">
-                          <ref role="3cqZAo" node="mpbtt3ubHq" resolve="coord" />
-                        </node>
-                        <node concept="3TrcHB" id="mpbtt3urtK" role="2OqNvi">
-                          <ref role="3TsBF5" to="gl2w:2PuomAm5PaG" resolve="x" />
-                        </node>
-                      </node>
-                    </node>
-                    <node concept="Xl_RD" id="mpbtt3ur$C" role="3uHU7w">
-                      <property role="Xl_RC" value="," />
-                    </node>
                   </node>
                 </node>
               </node>
