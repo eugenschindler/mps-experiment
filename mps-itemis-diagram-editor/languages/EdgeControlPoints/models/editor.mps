@@ -2,8 +2,8 @@
 <model ref="r:af90fb63-ad5e-4788-bc5c-900f85f7c2e4(EdgeControlPoints.editor)">
   <persistence version="9" />
   <languages>
-    <use id="18bc6592-03a6-4e29-a83a-7ff23bde13ba" name="jetbrains.mps.lang.editor" version="3" />
-    <use id="c72da2b9-7cce-4447-8389-f407dc1158b7" name="jetbrains.mps.lang.structure" version="1" />
+    <use id="18bc6592-03a6-4e29-a83a-7ff23bde13ba" name="jetbrains.mps.lang.editor" version="4" />
+    <use id="c72da2b9-7cce-4447-8389-f407dc1158b7" name="jetbrains.mps.lang.structure" version="3" />
     <use id="fa13cc63-c476-4d46-9c96-d53670abe7bc" name="de.itemis.mps.editor.diagram" version="0" />
     <devkit ref="fbc25dd2-5da4-483a-8b19-70928e1b62d7(jetbrains.mps.devkit.general-purpose)" />
   </languages>
@@ -192,7 +192,7 @@
           <node concept="2OqwBi" id="mpbtt3vyY1" role="23hSWE">
             <node concept="1Pxb5l" id="mpbtt3vyW1" role="2Oq$k0" />
             <node concept="3TrEf2" id="mpbtt3vz24" role="2OqNvi">
-              <ref role="3Tt5mk" to="gc3l:mpbtt3vy_R" />
+              <ref role="3Tt5mk" to="gc3l:mpbtt3vy_R" resolve="from" />
             </node>
           </node>
         </node>
@@ -202,7 +202,7 @@
           <node concept="2OqwBi" id="mpbtt3vz5q" role="23hSWE">
             <node concept="1Pxb5l" id="mpbtt3vz3q" role="2Oq$k0" />
             <node concept="3TrEf2" id="mpbtt3vz9t" role="2OqNvi">
-              <ref role="3Tt5mk" to="gc3l:mpbtt3vy_T" />
+              <ref role="3Tt5mk" to="gc3l:mpbtt3vy_T" resolve="to" />
             </node>
           </node>
         </node>
@@ -218,7 +218,7 @@
     </node>
     <node concept="3F2HdR" id="mpbtt3vzeq" role="6VMZX">
       <property role="2czwfO" value=";" />
-      <ref role="1NtTu8" to="gc3l:mpbtt3vyAk" />
+      <ref role="1NtTu8" to="gc3l:mpbtt3vyAk" resolve="controlPoints" />
     </node>
   </node>
   <node concept="24kQdi" id="mpbtt3vzfT">
@@ -272,7 +272,7 @@
                       <ref role="3cqZAo" node="mpbtt3vzoW" resolve="e" />
                     </node>
                     <node concept="3TrEf2" id="mpbtt3vzvq" role="2OqNvi">
-                      <ref role="3Tt5mk" to="gc3l:mpbtt3vy_R" />
+                      <ref role="3Tt5mk" to="gc3l:mpbtt3vy_R" resolve="from" />
                     </node>
                   </node>
                 </node>
@@ -285,7 +285,7 @@
                       <ref role="3cqZAo" node="mpbtt3vzoW" resolve="e" />
                     </node>
                     <node concept="3TrEf2" id="mpbtt3vzNu" role="2OqNvi">
-                      <ref role="3Tt5mk" to="gc3l:mpbtt3vy_T" />
+                      <ref role="3Tt5mk" to="gc3l:mpbtt3vy_T" resolve="to" />
                     </node>
                   </node>
                 </node>
@@ -295,7 +295,7 @@
                   <node concept="2OqwBi" id="mpbtt3vzXM" role="2Oq$k0">
                     <node concept="1Pxb5l" id="mpbtt3vzUR" role="2Oq$k0" />
                     <node concept="3Tsc0h" id="mpbtt3v$5v" role="2OqNvi">
-                      <ref role="3TtcxE" to="gc3l:mpbtt3vy_M" />
+                      <ref role="3TtcxE" to="gc3l:mpbtt3vy_M" resolve="edges" />
                     </node>
                   </node>
                   <node concept="TSZUe" id="mpbtt3vAos" role="2OqNvi">
@@ -309,13 +309,13 @@
           </node>
         </node>
         <node concept="aDKH9" id="mpbtt3vzo$" role="aCds2">
-          <ref role="aDKIf" to="gc3l:mpbtt3vy_O" />
+          <ref role="aDKIf" to="gc3l:mpbtt3vy_O" resolve="vertices" />
         </node>
         <node concept="aDKH9" id="mpbtt3vzoD" role="aCds2">
-          <ref role="aDKIf" to="gc3l:mpbtt3vy_M" />
+          <ref role="aDKIf" to="gc3l:mpbtt3vy_M" resolve="edges" />
         </node>
         <node concept="1RuTs0" id="mpbtt3vABJ" role="1RuSHk">
-          <ref role="1RuSHD" to="gc3l:mpbtt3vy_O" />
+          <ref role="1RuSHD" to="gc3l:mpbtt3vy_O" resolve="vertices" />
         </node>
       </node>
     </node>

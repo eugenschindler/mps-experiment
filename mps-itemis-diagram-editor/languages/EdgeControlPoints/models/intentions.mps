@@ -71,7 +71,7 @@
         <child id="1068580123160" name="condition" index="3clFbw" />
         <child id="1068580123161" name="ifTrue" index="3clFbx" />
       </concept>
-      <concept id="1068580123136" name="jetbrains.mps.baseLanguage.structure.StatementList" flags="sn" index="3clFbS">
+      <concept id="1068580123136" name="jetbrains.mps.baseLanguage.structure.StatementList" flags="sn" stub="5293379017992965193" index="3clFbS">
         <child id="1068581517665" name="statement" index="3cqZAp" />
       </concept>
       <concept id="1068581242864" name="jetbrains.mps.baseLanguage.structure.LocalVariableDeclarationStatement" flags="nn" index="3cpWs8">
@@ -116,6 +116,10 @@
     </language>
     <language id="7866978e-a0f0-4cc7-81bc-4d213d9375e1" name="jetbrains.mps.lang.smodel">
       <concept id="1179409122411" name="jetbrains.mps.lang.smodel.structure.Node_ConceptMethodCall" flags="nn" index="2qgKlT" />
+      <concept id="2396822768958367367" name="jetbrains.mps.lang.smodel.structure.AbstractTypeCastExpression" flags="nn" index="$5XWr">
+        <reference id="6733348108486823428" name="concept" index="1m5ApE" />
+        <child id="6733348108486823193" name="leftExpression" index="1m5AlR" />
+      </concept>
       <concept id="1145404486709" name="jetbrains.mps.lang.smodel.structure.SemanticDowncastExpression" flags="nn" index="2JrnkZ">
         <child id="1145404616321" name="leftExpression" index="2JrQYb" />
       </concept>
@@ -123,10 +127,7 @@
       <concept id="1180636770613" name="jetbrains.mps.lang.smodel.structure.SNodeCreator" flags="nn" index="3zrR0B">
         <child id="1180636770616" name="createdType" index="3zrR0E" />
       </concept>
-      <concept id="1140137987495" name="jetbrains.mps.lang.smodel.structure.SNodeTypeCastExpression" flags="nn" index="1PxgMI">
-        <reference id="1140138128738" name="concept" index="1PxNhF" />
-        <child id="1140138123956" name="leftExpression" index="1PxMeX" />
-      </concept>
+      <concept id="1140137987495" name="jetbrains.mps.lang.smodel.structure.SNodeTypeCastExpression" flags="nn" index="1PxgMI" />
       <concept id="1138055754698" name="jetbrains.mps.lang.smodel.structure.SNodeType" flags="in" index="3Tqbb2">
         <reference id="1138405853777" name="concept" index="ehGHo" />
       </concept>
@@ -345,7 +346,7 @@
           <node concept="2OqwBi" id="mpbtt3uc1U" role="1DdaDG">
             <node concept="2Sf5sV" id="mpbtt3ubUy" role="2Oq$k0" />
             <node concept="3Tsc0h" id="mpbtt3vQSE" role="2OqNvi">
-              <ref role="3TtcxE" to="gc3l:mpbtt3vyAk" />
+              <ref role="3TtcxE" to="gc3l:mpbtt3vyAk" resolve="controlPoints" />
             </node>
           </node>
         </node>
@@ -392,7 +393,7 @@
           <node concept="2OqwBi" id="6$5eFO90y3N" role="2GsD0m">
             <node concept="2Sf5sV" id="6$5eFO90xW0" role="2Oq$k0" />
             <node concept="3Tsc0h" id="6$5eFO90yeU" role="2OqNvi">
-              <ref role="3TtcxE" to="gc3l:mpbtt3vy_M" />
+              <ref role="3TtcxE" to="gc3l:mpbtt3vy_M" resolve="edges" />
             </node>
           </node>
           <node concept="3clFbS" id="6$5eFO90x4T" role="2LFqv$">
@@ -403,8 +404,8 @@
                   <ref role="ehGHo" to="suqv:20KyIMr0tM4" resolve="Layout_Connection" />
                 </node>
                 <node concept="1PxgMI" id="6$5eFO90zLI" role="33vP2m">
-                  <ref role="1PxNhF" to="suqv:20KyIMr0tM4" resolve="Layout_Connection" />
-                  <node concept="2OqwBi" id="6$5eFO90zA2" role="1PxMeX">
+                  <ref role="1m5ApE" to="suqv:20KyIMr0tM4" resolve="Layout_Connection" />
+                  <node concept="2OqwBi" id="6$5eFO90zA2" role="1m5AlR">
                     <node concept="2YIFZM" id="6$5eFO90zA3" role="2Oq$k0">
                       <ref role="37wK5l" to="nkm5:7L$rKAVgSYS" resolve="getInstance" />
                       <ref role="1Pybhc" to="nkm5:7L$rKAVfOqc" resolve="LayoutMap" />
@@ -493,7 +494,7 @@
                     <ref role="3cqZAo" node="6$5eFO90zA1" resolve="layout" />
                   </node>
                   <node concept="3Tsc0h" id="6$5eFO90W2N" role="2OqNvi">
-                    <ref role="3TtcxE" to="suqv:20KyIMr0tPX" />
+                    <ref role="3TtcxE" to="suqv:20KyIMr0tPX" resolve="anchors" />
                   </node>
                 </node>
                 <node concept="2Kehj3" id="6$5eFO90YkA" role="2OqNvi" />
@@ -506,7 +507,7 @@
                     <ref role="3cqZAo" node="6$5eFO90zA1" resolve="layout" />
                   </node>
                   <node concept="3Tsc0h" id="6$5eFO910R9" role="2OqNvi">
-                    <ref role="3TtcxE" to="suqv:20KyIMr0tPX" />
+                    <ref role="3TtcxE" to="suqv:20KyIMr0tPX" resolve="anchors" />
                   </node>
                 </node>
                 <node concept="X8dFx" id="6$5eFO912HO" role="2OqNvi">
@@ -516,7 +517,7 @@
                         <ref role="2Gs0qQ" node="6$5eFO90x4P" resolve="edge" />
                       </node>
                       <node concept="3Tsc0h" id="6$5eFO913bK" role="2OqNvi">
-                        <ref role="3TtcxE" to="gc3l:mpbtt3vyAk" />
+                        <ref role="3TtcxE" to="gc3l:mpbtt3vyAk" resolve="controlPoints" />
                       </node>
                     </node>
                     <node concept="3$u5V9" id="6$5eFO913bL" role="2OqNvi">
