@@ -1,9 +1,0 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<project version="4">
-  <component name="MPSProject">
-    <projectModules>
-      <modulePath path="$PROJECT_DIR$/languages/example.org.campagnelab.TextOutput/example.org.campagnelab.TextOutput.mpl" folder="" />
-      <modulePath path="$PROJECT_DIR$/solutions/example.org.campagnelab.TextOutput.models/example.org.campagnelab.TextOutput.models.msd" folder="" />
-    </projectModules>
-  </component>
-</project>
