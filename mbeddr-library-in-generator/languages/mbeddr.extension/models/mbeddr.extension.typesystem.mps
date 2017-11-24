@@ -85,5 +85,32 @@
       <ref role="1YaFvo" to="wstt:M8gtfDqpur" resolve="MyExpr" />
     </node>
   </node>
+  <node concept="1YbPZF" id="2gMiy9s5s43">
+    <property role="TrG5h" value="typeof_MyExpr2" />
+    <node concept="3clFbS" id="2gMiy9s5s44" role="18ibNy">
+      <node concept="1Z5TYs" id="2gMiy9s5I7R" role="3cqZAp">
+        <node concept="mw_s8" id="2gMiy9s5I8b" role="1ZfhKB">
+          <node concept="2ShNRf" id="2gMiy9s5I87" role="mwGJk">
+            <node concept="3zrR0B" id="2gMiy9s5LAW" role="2ShVmc">
+              <node concept="3Tqbb2" id="2gMiy9s5LAY" role="3zrR0E">
+                <ref role="ehGHo" to="mj1l:7lNBHBNBzy3" resolve="Int16tType" />
+              </node>
+            </node>
+          </node>
+        </node>
+        <node concept="mw_s8" id="2gMiy9s5I7U" role="1ZfhK$">
+          <node concept="1Z2H0r" id="2gMiy9s5GAK" role="mwGJk">
+            <node concept="1YBJjd" id="2gMiy9s5GCw" role="1Z2MuG">
+              <ref role="1YBMHb" node="2gMiy9s5s46" resolve="myExpr2" />
+            </node>
+          </node>
+        </node>
+      </node>
+    </node>
+    <node concept="1YaCAy" id="2gMiy9s5s46" role="1YuTPh">
+      <property role="TrG5h" value="myExpr2" />
+      <ref role="1YaFvo" to="wstt:51lyhHQk5jg" resolve="MyExpr2" />
+    </node>
+  </node>
 </model>
 

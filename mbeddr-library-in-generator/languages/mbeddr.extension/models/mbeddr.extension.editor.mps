@@ -43,5 +43,17 @@
       </node>
     </node>
   </node>
+  <node concept="24kQdi" id="2gMiy9s5s0O">
+    <ref role="1XX52x" to="wstt:51lyhHQk5jg" resolve="MyExpr2" />
+    <node concept="3EZMnI" id="2gMiy9s5s0Q" role="2wV5jI">
+      <node concept="2iRfu4" id="2gMiy9s5s0R" role="2iSdaV" />
+      <node concept="3F0ifn" id="2gMiy9s5s0S" role="3EZMnx">
+        <property role="3F0ifm" value="MyExpr2:" />
+      </node>
+      <node concept="3F0A7n" id="2gMiy9s5s0T" role="3EZMnx">
+        <ref role="1NtTu8" to="wstt:51lyhHQkaUF" resolve="val2" />
+      </node>
+    </node>
+  </node>
 </model>
 
