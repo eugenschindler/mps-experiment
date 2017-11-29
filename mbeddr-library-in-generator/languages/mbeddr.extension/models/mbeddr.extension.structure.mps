@@ -39,5 +39,15 @@
       <ref role="AX2Wp" to="tpck:fKAQMTA" resolve="integer" />
     </node>
   </node>
+  <node concept="1TIwiD" id="51lyhHQk5jg">
+    <property role="EcuMT" value="5788683647096739024" />
+    <property role="TrG5h" value="MyExpr2" />
+    <ref role="1TJDcQ" to="mj1l:7FQByU3CrCM" resolve="Expression" />
+    <node concept="1TJgyi" id="51lyhHQkaUF" role="1TKVEl">
+      <property role="IQ2nx" value="5788683647096762027" />
+      <property role="TrG5h" value="val2" />
+      <ref role="AX2Wp" to="tpck:fKAQMTA" resolve="integer" />
+    </node>
+  </node>
 </model>
 
